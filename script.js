@@ -23,23 +23,7 @@ const userData = [
         age: "60",
         
     }
-]
-//     {
-       
-//         img: "assets/mouse.svg",
-//         name: "cell",
-//         sex: "keyboard",
-//         age: "mouse",
-      
-//     },
-//     {
-//         img: "assets/keyboard.svg",
-//         opta: "laptop",
-//         optb: "pen",
-//         optc: "keyboard",
-//         correct: "",
-//     },
-// ];
+ ];
 
 document.getElementById("demo").innerHTML = `<span style ="color:green">USER ${curr + 1} of ${userData.length}<span/>`;
 
