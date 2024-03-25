@@ -49,7 +49,7 @@ function previous() {
     if (curr > 0) {
         curr--;
     }
-
+document.getElementById("demo").innerHTML = `<span style ="color:green">USER ${curr + 1} of ${userData.length}<span/>`;
     document.getElementById("img").src = userData[curr].img;
     document.getElementById("a_text").innerHTML = userData[curr].name;
     document.getElementById("b_text").innerHTML = userData[curr].sex;
